@@ -10,3 +10,8 @@ purposes
     ln .tmux.conf ~
   #+END_SRC
 
+* konsole colorscheme
+  The colorscheme is Lunarized: [[Lunarized.colorscheme]]
+  #+BEGIN_SRC sh
+    ln Lunarized.colorscheme ~/.local/share/konsole
+  #+END_SRC
