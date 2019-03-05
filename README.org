@@ -2,3 +2,7 @@
 
 Collection of dotfiles and configuration files, for backup and sharing
 purposes
+
+
+* tmux (see [[https://github.com/tmux/tmux]])
+  [[.tmux.conf]] → ~/.tmux.conf
