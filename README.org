@@ -5,4 +5,8 @@ purposes
 
 
 * tmux (see [[https://github.com/tmux/tmux][github page]])
-  [[.tmux.conf]] → ~/.tmux.conf
+  [[.tmux.conf]]
+  #+BEGIN_SRC sh
+    ln .tmux.conf ~
+  #+END_SRC
+
