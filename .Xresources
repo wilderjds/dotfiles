@@ -1,0 +1,77 @@
+Emacs*font: -xos4-hackminus-medium-r-normal--20-200-72-72-c-100-ISO10646-1
+Emacs*boldFont: -xos4-hackminus-medium-r-normal--20-200-72-72-c-100-ISO10646-1
+Emacs.menuBar: 0
+Emacs.toolBar: 0
+Emacs.verticalScrollBars: off
+
+urxvt*font: -xos4-hackminus-medium-*-*-*-20-*-*-*-*-*-*-*
+urxvt*boldFont: -xos4-hackminus-medium-*-*-*-20-*-*-*-*-*-*-*
+xterm*font: -xos4-hackminus-medium-*-*-*-20-*-*-*-*-*-*-*
+xterm*boldFont: -xos4-hackminus-medium-*-*-*-20-*-*-*-*-*-*-*
+XTerm*reverseVideo: on
+
+! Border
+URxvt.internalBorder:	    1
+URxvt.externalBorder:	    0
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+
+! Perl extensions
+URxvt.perl-ext-common:      default,matcher
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          /usr/kf5/bin/falkon
+
+! Cursor
+URxvt.cursorBlink:          false
+URxvt.cursorColor:          #969696
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
+! C-Backspace
+URxvt.keysym.C-BackSpace: \033[9;5~
+
+!!Source http://github.com/altercation/solarized
+
+*background: #262626
+*foreground: #969696
+!!*fading: 40
+*fadeColor: #262626
+*cursorColor: #969696
+*pointerColorBackground: #6A6a6a
+*pointerColorForeground: #969696
+
+!! black dark/light
+*color0: #303030
+*color8: #262626
+
+!! red dark/light
+*color1: #dc322f
+*color9: #cb4b16
+
+!! green dark/light
+*color2: #859900
+*color10: #6A6A6A
+
+!! yellow dark/light
+*color3: #b58900
+*color11: #777777
+
+!! blue dark/light
+*color4: #268bd2
+*color12: #969696
+
+!! magenta dark/light
+*color5: #d33682
+*color13: #6c71c4
+
+!! cyan dark/light
+*color6: #2aa198
+*color14: #9E9E9E
+
+!! white dark/light
+*color7: #E8E8E8
+*color15: #F6F6F6

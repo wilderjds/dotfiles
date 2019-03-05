@@ -5,8 +5,9 @@ purposes
 
 
 * [[https://github.com/tmux/tmux][tmux]]
-  Configuration
-  [[.tmux.conf]]
+  Configuration file  [[.tmux.conf]]
+
+  Install:
   #+BEGIN_SRC sh
     ln .tmux.conf ~
   #+END_SRC
@@ -15,4 +16,14 @@ purposes
   The colorscheme is Lunarized: [[Lunarized.colorscheme]]
   #+BEGIN_SRC sh
     ln Lunarized.colorscheme ~/.local/share/konsole
+  #+END_SRC
+
+* .Xresources
+  This is needed for
+  - ~emacs~ (to set fonts before parsing the init file)
+  - ~urxvt~ (to set the font and the colorscheme)
+  - ~xterm~ (to set the font and the colorscheme)
+  Install:
+  #+BEGIN_SRC sh
+  ln .Xresources ~
   #+END_SRC
