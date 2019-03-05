@@ -4,7 +4,8 @@ Collection of dotfiles and configuration files, for backup and sharing
 purposes
 
 
-* tmux (see [[https://github.com/tmux/tmux][github page]])
+* [[https://github.com/tmux/tmux][tmux]]
+  Configuration
   [[.tmux.conf]]
   #+BEGIN_SRC sh
     ln .tmux.conf ~
