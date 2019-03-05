@@ -1,0 +1,4 @@
+#+TITLE: dotfiles
+
+Collection of dotfiles and configuration files, for backup and sharing
+purposes
