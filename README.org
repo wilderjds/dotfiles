@@ -27,3 +27,9 @@ purposes
   #+BEGIN_SRC sh
   ln .Xresources ~
   #+END_SRC
+* plasma colorscheme
+  Install:
+  #+BEGIN_SRC sh
+  mkdir -p ~/.local/share/plasma/desktoptheme
+  ln -s $PWD/breeze-lunarized-dark-thinkpad ~/.local/share/plasma/desktoptheme/
+  #+END_SRC
