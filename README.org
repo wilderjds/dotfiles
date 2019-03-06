@@ -12,12 +12,6 @@ purposes
     ln .tmux.conf ~
   #+END_SRC
 
-* konsole colorscheme
-  The colorscheme is Lunarized: [[Lunarized.colorscheme]]
-  #+BEGIN_SRC sh
-    ln Lunarized.colorscheme ~/.local/share/konsole
-  #+END_SRC
-
 * .Xresources
   This is needed for
   - ~emacs~ (to set fonts before parsing the init file)
@@ -27,6 +21,12 @@ purposes
   #+BEGIN_SRC sh
   ln .Xresources ~
   #+END_SRC
+* konsole colorscheme
+  The colorscheme is Lunarized: [[Lunarized.colorscheme]]
+  #+BEGIN_SRC sh
+    ln Lunarized.colorscheme ~/.local/share/konsole
+  #+END_SRC
+
 * plasma colorscheme
   Install:
   #+BEGIN_SRC sh
