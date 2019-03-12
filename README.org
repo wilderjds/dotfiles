@@ -33,3 +33,12 @@ purposes
   mkdir -p ~/.local/share/plasma/desktoptheme
   ln -s $PWD/breeze-lunarized-dark-thinkpad ~/.local/share/plasma/desktoptheme/
   #+END_SRC
+* [[http://karlstav.github.io/cava/][cava]]
+  Configuration file [[cava.config]]
+  Please note that some config options (e.g. ~gradient_discrete~) only
+  make sense on my branch ([[https://github.com/wilderjds/cava/tree/discrete-gradient][github]])
+
+  Install:
+  #+BEGIN_SRC
+    ln cava.config ~/.config/cava/
+  #+END_SRC
