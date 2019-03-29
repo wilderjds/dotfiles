@@ -1,0 +1,36 @@
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_sync_interval = "30"
+visualizer_in_stereo = "yes"
+visualizer_type = "spectrum"
+visualizer_look = "+"
+
+alternative_header_first_line_format = ── {%t}|{%f} ──
+
+alternative_header_second_line_format = {{$4%a$9}{ · $7%b$9}{ ($6%y$9)}}|{%D}
+
+current_item_prefix = $r
+current_item_suffix = $/r
+now_playing_prefix = "▶ "
+not_playing_prefix = "  "
+now_playing_suffix = ""
+not_playing_suffix = ""
+
+#titles_visibility=no
+
+main_window_color=default
+song_columns_list_format="(16)[yellow]{a} (7f)[green]{NE} (43)[white]{t|f:Title} (20)[cyan]{b} (7f)[magenta]{l}"
+#header_window_color=red
+
+playlist_display_mode=columns
+
+user_interface="alternative"
+
+mpd_music_dir="/scratch/Music"
+
+progressbar_look = "─▶─"
+
+visualizer_color= "blue, cyan, cyan, green, green, yellow, yellow, red, red, magenta, magenta"
+
+progressbar_color = "black"
+#progressbar_elapsed_color = "white"

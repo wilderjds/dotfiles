@@ -39,6 +39,14 @@ purposes
   make sense on my branch ([[https://github.com/wilderjds/cava/tree/discrete-gradient][github]])
 
   Install:
-  #+BEGIN_SRC
+  #+BEGIN_SRC sh
     ln cava.config ~/.config/cava/
+  #+END_SRC
+* [[https://github.com/arybczak/ncmpcpp][ncmpcpp]]
+  Configuration file [[config.ncmpcpp]]
+  Please note that some config options only work on my fork ([[https://github.com/wilderjds/ncmpcpp][github]])
+
+  Install:
+  #+BEGIN_SRC sh
+    ln config.ncmpcpp ~/.config/ncmpcpp/config
   #+END_SRC
