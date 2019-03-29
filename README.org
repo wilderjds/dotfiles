@@ -35,6 +35,7 @@ purposes
   #+END_SRC
 * [[http://karlstav.github.io/cava/][cava]]
   Configuration file [[cava.config]]
+
   Please note that some config options (e.g. ~gradient_discrete~) only
   make sense on my branch ([[https://github.com/wilderjds/cava/tree/discrete-gradient][github]])
 
@@ -44,6 +45,7 @@ purposes
   #+END_SRC
 * [[https://github.com/arybczak/ncmpcpp][ncmpcpp]]
   Configuration file [[config.ncmpcpp]]
+
   Please note that some config options only work on my fork ([[https://github.com/wilderjds/ncmpcpp][github]])
 
   Install:
