@@ -33,6 +33,11 @@ purposes
   mkdir -p ~/.local/share/plasma/desktoptheme
   ln -s $PWD/breeze-lunarized-dark-thinkpad ~/.local/share/plasma/desktoptheme/
   #+END_SRC
+* KDE widget colorscheme
+  The colorscheme is [[Lunarized.colors]]. Install:
+  #+BEGIN_SRC sh
+  ln Lunarized.colors ~/.local/share/color-schemes/
+  #+END_SRC
 * [[http://karlstav.github.io/cava/][cava]]
   Configuration file [[cava.config]]
 
