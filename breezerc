@@ -1,0 +1,23 @@
+[Common]
+OutlineCloseButton=false
+
+[Windeco]
+ButtonSize=ButtonTiny
+DrawBackgroundGradient=false
+DrawSizeGrip=true
+
+[Windeco Exception 0]
+BorderSize=0
+Enabled=true
+ExceptionPattern=URxvt|Emacs|konsole
+ExceptionType=0
+HideTitleBar=true
+Mask=16
+
+[Windeco Exception 1]
+BorderSize=1
+Enabled=true
+ExceptionPattern=.*
+ExceptionType=0
+HideTitleBar=true
+Mask=0

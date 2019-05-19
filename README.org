@@ -38,6 +38,11 @@ purposes
   #+BEGIN_SRC sh
   ln Lunarized.colors ~/.local/share/color-schemes/
   #+END_SRC
+* Breeze decoration configuration
+  File: [[breezerc]].  Install
+  #+BEGIN_SRC sh
+  ln breezerc ~/.config
+  #+END_SRC
 * [[http://karlstav.github.io/cava/][cava]]
   Configuration file [[cava.config]]
 
