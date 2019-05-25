@@ -1,4 +1,5 @@
 #+TITLE: dotfiles
+#+PROPERTY: header-args :results silent
 
 Collection of dotfiles and configuration files, for backup and sharing
 purposes
