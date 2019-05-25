@@ -72,3 +72,11 @@ purposes
   #+BEGIN_SRC sh
     ln config.ncmpcpp ~/.config/ncmpcpp/config
   #+END_SRC
+* XCompose
+  The configuration file is split into files in the [[.XCompose.d][.XCompose.d]]
+  directory
+  #+BEGIN_SRC sh
+    ln .XCompose ~
+    mkdir ~/.XCompose.d
+    ln .XCompose.d/* ~/.XCompose.d
+  #+END_SRC

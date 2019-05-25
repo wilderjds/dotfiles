@@ -1,0 +1,116 @@
+
+# ~/.XCompose
+# This file defines custom Compose sequences for Unicode characters
+
+# Import default rules from the system Compose file:
+include "/usr/share/X11/locale/en_US.UTF-8/Compose"
+
+include "%H/.XCompose.d/xcompose.greek"
+include "%H/.XCompose.d/xcompose.math"
+
+# To put some stuff onto compose key strokes:
+<Multi_key> <minus> <greater> : "→" U2192 # Compose - >
+<Multi_key> <minus> <less> : "←" U2190
+<Multi_key> <equal> <greater> : "⇒" U21D2
+<Multi_key> <equal> <less> : "⇐" U21D0
+<Multi_key> <minus> <asciicircum> : "↑" U2191
+<Multi_key> <minus> <v> : "↓" U2193
+
+<Multi_key> <less> <underscore> : "≤" U2264
+<Multi_key> <greater> <underscore> : "≥" U2265
+
+<Multi_key> <v> <v> : "✓" U2713
+
+<Multi_key> <backslash> <o> <slash>            : "🙌"               # PERSON RAISING BOTH HANDS IN CELEBRATION
+
+<Multi_key> <grave> <grave>       : "“"   U201c # LEFT DOUBLE QUOTATION MARK
+<Multi_key> <acute> <acute>       : "”"   U201d # RIGHT DOUBLE QUOTATION MARK
+
+#Abbrev_it
+<Multi_key> <c> <m> <q> : "comunque"
+<Multi_key> <p> <w> <d> : "password"
+
+#Abbrev
+<Multi_key> <o> <t> <o> <h> : "on the other hand"
+<Multi_key> <O> <t> <o> <h> : "On the other hand"
+
+<Multi_key> <less> <3> : "❤"
+
+# reversed accents
+<Multi_key> <A> <grave>           	: "À"   Agrave # LATIN CAPITAL LETTER A WITH GRAVE
+<Multi_key> <A> <acute>          	: "Á"   Aacute # LATIN CAPITAL LETTER A WITH ACUTE
+<Multi_key> <A> <apostrophe>     	: "Á"   Aacute # LATIN CAPITAL LETTER A WITH ACUTE
+<Multi_key> <A> <asciicircum>    	: "Â"   Acircumflex # LATIN CAPITAL LETTER A WITH CIRCUMFLEX
+<Multi_key> <A> <asciitilde>     	: "Ã"   Atilde # LATIN CAPITAL LETTER A WITH TILDE
+<Multi_key> <A> <quotedbl>       	: "Ä"   Adiaeresis # LATIN CAPITAL LETTER A WITH DIAERESIS
+<Multi_key> <A> <o>              	: "Å"   Aring # LATIN CAPITAL LETTER A WITH RING ABOVE
+<Multi_key> <C> <comma>          	: "Ç"   Ccedilla # LATIN CAPITAL LETTER C WITH CEDILLA
+<Multi_key> <C> <cedilla>          	: "Ç"   Ccedilla # LATIN CAPITAL LETTER C WITH CEDILLA
+<Multi_key> <E> <grave>          	: "È"   Egrave # LATIN CAPITAL LETTER E WITH GRAVE
+<Multi_key> <E> <acute>          	: "É"   Eacute # LATIN CAPITAL LETTER E WITH ACUTE
+<Multi_key> <E> <apostrophe>     	: "É"   Eacute # LATIN CAPITAL LETTER E WITH ACUTE
+<Multi_key> <E> <asciicircum>    	: "Ê"   Ecircumflex # LATIN CAPITAL LETTER E WITH CIRCUMFLEX
+<Multi_key> <E> <quotedbl>       	: "Ë"   Ediaeresis # LATIN CAPITAL LETTER E WITH DIAERESIS
+<Multi_key> <I> <grave>          	: "Ì"   Igrave # LATIN CAPITAL LETTER I WITH GRAVE
+<Multi_key> <I> <acute>          	: "Í"   Iacute # LATIN CAPITAL LETTER I WITH ACUTE
+<Multi_key> <I> <apostrophe>     	: "Í"   Iacute # LATIN CAPITAL LETTER I WITH ACUTE
+<Multi_key> <I> <asciicircum>    	: "Î"   Icircumflex # LATIN CAPITAL LETTER I WITH CIRCUMFLEX
+<Multi_key> <I> <quotedbl>       	: "Ï"   Idiaeresis # LATIN CAPITAL LETTER I WITH DIAERESIS
+<Multi_key> <H> <D>              	: "Ð"   ETH # LATIN CAPITAL LETTER ETH
+<Multi_key> <N> <asciitilde>     	: "Ñ"   Ntilde # LATIN CAPITAL LETTER N WITH TILDE
+<Multi_key> <O> <grave>          	: "Ò"   Ograve # LATIN CAPITAL LETTER O WITH GRAVE
+<Multi_key> <O> <acute>          	: "Ó"   Oacute # LATIN CAPITAL LETTER O WITH ACUTE
+<Multi_key> <O> <apostrophe>     	: "Ó"   Oacute # LATIN CAPITAL LETTER O WITH ACUTE
+<Multi_key> <O> <asciicircum>    	: "Ô"   Ocircumflex # LATIN CAPITAL LETTER O WITH CIRCUMFLEX
+<Multi_key> <O> <asciitilde>     	: "Õ"   Otilde # LATIN CAPITAL LETTER O WITH TILDE
+<Multi_key> <O> <quotedbl>       	: "Ö"   Odiaeresis # LATIN CAPITAL LETTER O WITH DIAERESIS
+<Multi_key> <x> <x>              	: "×"   multiply # MULTIPLICATION SIGN
+<Multi_key> <O> <slash>          	: "Ø"   Oslash # LATIN CAPITAL LETTER O WITH STROKE
+<Multi_key> <U> <grave>          	: "Ù"   Ugrave # LATIN CAPITAL LETTER U WITH GRAVE
+<Multi_key> <U> <acute>          	: "Ú"   Uacute # LATIN CAPITAL LETTER U WITH ACUTE
+<Multi_key> <U> <apostrophe>     	: "Ú"   Uacute # LATIN CAPITAL LETTER U WITH ACUTE
+<Multi_key> <U> <asciicircum>    	: "Û"   Ucircumflex # LATIN CAPITAL LETTER U WITH CIRCUMFLEX
+<Multi_key> <U> <quotedbl>       	: "Ü"   Udiaeresis # LATIN CAPITAL LETTER U WITH DIAERESIS
+<Multi_key> <Y> <acute>          	: "Ý"   Yacute # LATIN CAPITAL LETTER Y WITH ACUTE
+<Multi_key> <Y> <apostrophe>     	: "Ý"   Yacute # LATIN CAPITAL LETTER Y WITH ACUTE
+<Multi_key> <H> <T>              	: "Þ"   THORN # LATIN CAPITAL LETTER THORN
+<Multi_key> <a> <grave>          	: "à"   agrave # LATIN SMALL LETTER A WITH GRAVE
+<Multi_key> <a> <acute>          	: "á"   aacute # LATIN SMALL LETTER A WITH ACUTE
+<Multi_key> <a> <apostrophe>     	: "á"   aacute # LATIN SMALL LETTER A WITH ACUTE
+<Multi_key> <a> <asciicircum>    	: "â"   acircumflex # LATIN SMALL LETTER A WITH CIRCUMFLEX
+<Multi_key> <a> <asciitilde>     	: "ã"   atilde # LATIN SMALL LETTER A WITH TILDE
+<Multi_key> <a> <quotedbl>       	: "ä"   adiaeresis # LATIN SMALL LETTER A WITH DIAERESIS
+<Multi_key> <a> <o>              	: "å"   aring # LATIN SMALL LETTER A WITH RING ABOVE
+<Multi_key> <c> <comma>          	: "ç"   ccedilla # LATIN SMALL LETTER C WITH CEDILLA
+<Multi_key> <c> <cedilla>          	: "ç"   ccedilla # LATIN SMALL LETTER C WITH CEDILLA
+<Multi_key> <e> <grave>          	: "è"   egrave # LATIN SMALL LETTER E WITH GRAVE
+<Multi_key> <e> <acute>          	: "é"   eacute # LATIN SMALL LETTER E WITH ACUTE
+<Multi_key> <e> <apostrophe>     	: "é"   eacute # LATIN SMALL LETTER E WITH ACUTE
+<Multi_key> <e> <asciicircum>    	: "ê"   ecircumflex # LATIN SMALL LETTER E WITH CIRCUMFLEX
+<Multi_key> <e> <quotedbl>       	: "ë"   ediaeresis # LATIN SMALL LETTER E WITH DIAERESIS
+<Multi_key> <i> <grave>          	: "ì"   igrave # LATIN SMALL LETTER I WITH GRAVE
+<Multi_key> <i> <acute>          	: "í"   iacute # LATIN SMALL LETTER I WITH ACUTE
+<Multi_key> <i> <apostrophe>     	: "í"   iacute # LATIN SMALL LETTER I WITH ACUTE
+<Multi_key> <i> <asciicircum>    	: "î"   icircumflex # LATIN SMALL LETTER I WITH CIRCUMFLEX
+<Multi_key> <i> <quotedbl>       	: "ï"   idiaeresis # LATIN SMALL LETTER I WITH DIAERESIS
+<Multi_key> <h> <d>              	: "ð"   eth # LATIN SMALL LETTER ETH
+<Multi_key> <n> <asciitilde>     	: "ñ"   ntilde # LATIN SMALL LETTER N WITH TILDE
+<Multi_key> <o> <grave>          	: "ò"   ograve # LATIN SMALL LETTER O WITH GRAVE
+<Multi_key> <o> <acute>          	: "ó"   oacute # LATIN SMALL LETTER O WITH ACUTE
+<Multi_key> <o> <apostrophe>     	: "ó"   oacute # LATIN SMALL LETTER O WITH ACUTE
+<Multi_key> <o> <asciicircum>    	: "ô"   ocircumflex # LATIN SMALL LETTER O WITH CIRCUMFLEX
+<Multi_key> <o> <asciitilde>     	: "õ"   otilde # LATIN SMALL LETTER O WITH TILDE
+<Multi_key> <o> <quotedbl>       	: "ö"   odiaeresis # LATIN SMALL LETTER O WITH DIAERESIS
+<Multi_key> <o> <slash>          	: "ø"   oslash # LATIN SMALL LETTER O WITH STROKE
+<Multi_key> <u> <grave>          	: "ù"   ugrave # LATIN SMALL LETTER U WITH GRAVE
+<Multi_key> <u> <acute>          	: "ú"   uacute # LATIN SMALL LETTER U WITH ACUTE
+<Multi_key> <u> <apostrophe>     	: "ú"   uacute # LATIN SMALL LETTER U WITH ACUTE
+<Multi_key> <u> <asciicircum>    	: "û"   ucircumflex # LATIN SMALL LETTER U WITH CIRCUMFLEX
+<Multi_key> <u> <quotedbl>       	: "ü"   udiaeresis # LATIN SMALL LETTER U WITH DIAERESIS
+<Multi_key> <y> <acute>          	: "ý"   yacute # LATIN SMALL LETTER Y WITH ACUTE
+<Multi_key> <y> <apostrophe>     	: "ý"   yacute # LATIN SMALL LETTER Y WITH ACUTE
+<Multi_key> <h> <t>              	: "þ"   thorn # LATIN SMALL LETTER THORN
+<Multi_key> <y> <quotedbl>       	: "ÿ"   ydiaeresis # LATIN SMALL LETTER Y WITH DIAERESIS
+
+<Multi_key> <o> <parenright>    :"ɔ" U0254 # LATIN SMALL LETTER OPEN O
+<Multi_key> <O> <parenright>    :"Ɔ" U0186 # LATIN CAPITAL LETTER OPEN O
