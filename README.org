@@ -47,6 +47,12 @@ purposes
   #+BEGIN_SRC sh
   ln kwinrulesrc ~/.config
   #+END_SRC
+* htop
+  #+BEGIN_SRC sh
+  mkdir -p ~/.config/htop
+  ln htoprc ~/.config/htop/htoprc
+  #+END_SRC
+
 * [[http://karlstav.github.io/cava/][cava]]
   Configuration file [[cava.config]]
 
