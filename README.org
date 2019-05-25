@@ -71,6 +71,7 @@ purposes
 
   Install:
   #+BEGIN_SRC sh
+    mkdir ~/.config/ncmpcpp
     ln config.ncmpcpp ~/.config/ncmpcpp/config
   #+END_SRC
 * XCompose
