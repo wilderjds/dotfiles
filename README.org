@@ -48,6 +48,13 @@ purposes
   #+BEGIN_SRC sh
   ln kwinrulesrc ~/.config
   #+END_SRC
+* kde keyboard layout configuration
+  This entry takes care of setting the layout every time a keyboard is
+  connected. Note that this is conditional on my patches for
+  ~plasma-desktop~
+  #+BEGIN_SRC sh
+  ln kxkbrc ~/.config
+  #+END_SRC
 * htop
   #+BEGIN_SRC sh
   mkdir -p ~/.config/htop

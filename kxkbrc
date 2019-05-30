@@ -1,0 +1,13 @@
+[Layout]
+DisplayNames=
+LayoutList=us
+LayoutLoopCount=-1
+LayoutScript=/home/jacopods/tmp/xcape/remap-keyboard
+Model=pc101
+ResetOldOptions=false
+ShowFlag=false
+ShowLabel=true
+ShowLayoutIndicator=true
+ShowSingle=false
+SwitchMode=Global
+Use=false
