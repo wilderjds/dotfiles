@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Breeze Lunarized Dark - thinkpad
+Name=Breeze Lunarized Dark Flat - thinkpad
 Name[ar]=نسيم داكن
 Name[ast]=Breeze Dark
 Name[ca]=Brisa fosca
@@ -58,7 +58,7 @@ defaultWidth=1920
 defaultHeight=1080
 
 [ContrastEffect]
-enabled=true
+enabled=false
 contrast=0.2
 intensity=0.4
 saturation=1.7
