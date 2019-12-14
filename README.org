@@ -69,7 +69,7 @@ purposes
 
   Install:
   #+BEGIN_SRC sh
-    ln cava.config ~/.config/cava/
+    ln cava.config ~/.config/cava/config
   #+END_SRC
 * [[https://github.com/arybczak/ncmpcpp][ncmpcpp]]
   Configuration file [[config.ncmpcpp]]
