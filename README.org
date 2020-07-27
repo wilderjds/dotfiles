@@ -22,6 +22,11 @@ purposes
   #+BEGIN_SRC sh
   ln .Xresources ~
   #+END_SRC
+* termux colorscheme
+  Install
+  #+BEGIN_SRC sh
+  ln colors.properties ~/.termux
+  #+END_SRC
 * konsole colorscheme
   The colorscheme is Lunarized: [[Lunarized.colorscheme]]
   #+BEGIN_SRC sh
